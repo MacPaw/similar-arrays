@@ -10,7 +10,7 @@ Installation
 ============
 
 ```console
-composer require macpaw/similar-arrays
+$ composer require macpaw/similar-arrays
 ```
 
 Example
