@@ -1,0 +1,44 @@
+{
+    "name": "macpaw/similar-arrays",
+    "type": "library",
+    "description": "Check is similar arrays",
+    "keywords": [
+        "MacPaw",
+        "check-similar-array",
+        "similar-array",
+        "similar"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.2",
+        "phpunit/phpunit": "^9.5",
+        "slevomat/coding-standard": "^7.0",
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimilarArrays\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SimilarArrays\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "composer-validate": "composer validate",
+        "phpstan": "./vendor/bin/phpstan analyse -l max",
+        "code-style": "./vendor/bin/phpcs",
+        "code-style-fix": "./vendor/bin/phpcbf",
+        "phpunit": "./vendor/bin/phpunit",
+        "dev-checks": [
+            "composer validate",
+            "@phpstan",
+            "@phpunit",
+            "@code-style"
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+	    -
+	        message: '#.* of function sprintf expects bool|float|int|string|null, mixed given.#'
+	        count: 1
+	        path: ./src/SimilarArray
