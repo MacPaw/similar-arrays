@@ -36,7 +36,7 @@ var_dump($result) // true
 [main Build Status Image]: https://github.com/macpaw/SimilarArrays/workflows/CI/badge.svg?branch=main
 [develop Build Status]: https://github.com/macpaw/SimilarArrays/actions?query=workflow%3ACI+branch%3Adevelop
 [develop Build Status Image]: https://github.com/macpaw/SimilarArrays/workflows/CI/badge.svg?branch=develop
-[main Code Coverage]: https://codecov.io/gh/macpaw/SimilarArrays/branch/main
-[main Code Coverage Image]: https://img.shields.io/codecov/c/github/macpaw/SimilarArrays/main?logo=codecov
-[develop Code Coverage]: https://codecov.io/gh/macpaw/SimilarArrays/branch/develop
-[develop Code Coverage Image]: https://img.shields.io/codecov/c/github/macpaw/SimilarArrays/develop?logo=codecov
+[main Code Coverage]: https://codecov.io/gh/macpaw/similar-arrays/branch/main
+[main Code Coverage Image]: https://img.shields.io/codecov/c/github/macpaw/similar-arrays/main?logo=codecov
+[develop Code Coverage]: https://codecov.io/gh/macpaw/similar-arrays/branch/develop
+[develop Code Coverage Image]: https://img.shields.io/codecov/c/github/macpaw/similar-arrays/develop?logo=codecov
