@@ -1,3 +1,5 @@
+![Similar Arrays](.github/header.png)
+
 Similar Array Library
 =================================
 
